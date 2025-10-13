@@ -9,3 +9,11 @@ https://www.udemy.com/course/nextjs-react-the-complete-guide
 ```bash
 npx create-next-app@latest .
 ```
+
+## NextJS Essentials
+
+<https://github.com/mschwarzmueller/nextjs-complete-guide-course-resources>
+
+## Rest of the Course
+
+<https://github.com/mschwarzmueller/nextjs-course-code>
