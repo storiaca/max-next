@@ -10,6 +10,9 @@ export default function Home() {
         <Link href="/meals">Meals</Link>
       </p>
       <p style={{ color: "white", textAlign: "center" }}>
+        <Link href="/meals/share">Share Meal</Link>
+      </p>
+      <p style={{ color: "white", textAlign: "center" }}>
         <Link href="/community">Community</Link>
       </p>
     </main>
