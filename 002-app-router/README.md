@@ -14,6 +14,10 @@ pnpm dev
 bun dev
 ```
 
+## Organize a next project
+
+<https://nextjs.org/docs/app/getting-started/project-structure#colocation>
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
