@@ -18,6 +18,10 @@ bun dev
 
 <https://nextjs.org/docs/app/getting-started/project-structure#colocation>
 
+## File system conventions
+
+<https://nextjs.org/docs/app/api-reference/file-conventions>
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
