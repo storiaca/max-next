@@ -17,3 +17,7 @@ npx create-next-app@latest .
 ## Rest of the Course
 
 <https://github.com/mschwarzmueller/nextjs-course-code>
+
+## Image component
+
+<https://nextjs.org/docs/app/api-reference/components/image>
