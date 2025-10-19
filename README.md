@@ -21,3 +21,7 @@ npx create-next-app@latest .
 ## Image component
 
 <https://nextjs.org/docs/app/api-reference/components/image>
+
+## Dynamic APIs for props
+
+<https://nextjs.org/docs/messages/sync-dynamic-apis>

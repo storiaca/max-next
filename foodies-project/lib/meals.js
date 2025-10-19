@@ -8,3 +8,9 @@ export async function getMeals() {
   // throw new Error("Lading meals failed");
   return db.prepare("SELECT * FROM meals").all();
 }
+
+export async function getMeal(slug) {
+  await new Promise((resolve) => setTimeout(resolve, 2000));
+
+  return db.prepare("SELECT * FROM meals WHERE slug = ?").get(slug);
+}
