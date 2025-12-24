@@ -1,13 +1,13 @@
 import MainHeader from '@/components/MainHeader';
-import './globals.css';
-
+import '../globals.css'
+ 
 export const metadata = {
   title: 'Next.js Page Routing & Rendering',
   description: 'Learn how to route to different pages.',
-}
-
-export default function RootLayout({ children }) {
- return (
+};
+ 
+export default function ContentLayout({ children }) {
+  return (
     <html lang="en">
       <body>
         <div id="page">
@@ -16,5 +16,5 @@ export default function RootLayout({ children }) {
         </div>
       </body>
     </html>
-  )
+  );
 }
