@@ -4,7 +4,7 @@ import { getAllNews } from "@/lib/news";
 //import { DUMMY_NEWS } from "@/dummy-news";
 
 export default async function NewsPage() {
-  const news = getAllNews()
+  const news = await getAllNews()
 
   return (
     <div>
