@@ -2,6 +2,11 @@ import Link from "next/link";
 import NewsList from "@/components/NewsList";
 import { getNewsForYear, getAvailableNewsYears, getAvailableNewsMonths, getNewsForYearAndMonth } from "@/lib/news";
 
+async function FilteredNews({year, month}) {
+  let news;
+  news = await getNewsForYear(selectedYear)
+}
+
 export default async function FilteredNewsPage({params}) {
   const {filter} = await params
   
@@ -12,7 +17,7 @@ export default async function FilteredNewsPage({params}) {
   let links = await getAvailableNewsYears()
   
   if(selectedYear && !selectedMonth) {
-    news = await getNewsForYear(selectedYear)
+    
     links = getAvailableNewsMonths(selectedYear)
   }
 
