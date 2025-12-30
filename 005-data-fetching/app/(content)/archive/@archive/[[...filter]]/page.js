@@ -8,7 +8,6 @@ async function FilterHeder({year, month}) {
   
   let links = availableYears
   
-  
   if(year&& !availableYears.includes(year) || (month && !getAvailableNewsMonths(year).includes(month))) {
     throw new Error('Invalid filter.')
   }
