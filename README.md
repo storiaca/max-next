@@ -25,3 +25,7 @@ npx create-next-app@latest .
 ## Dynamic APIs for props
 
 <https://nextjs.org/docs/messages/sync-dynamic-apis>
+
+## revaliatePath
+
+<https://nextjs.org/docs/app/api-reference/functions/revalidatePath>
