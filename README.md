@@ -29,3 +29,7 @@ npx create-next-app@latest .
 ## revaliatePath
 
 <https://nextjs.org/docs/app/api-reference/functions/revalidatePath>
+
+## Caching in Next.js
+
+<https://nextjs.org/docs/app/guides/caching>
