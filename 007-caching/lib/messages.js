@@ -1,6 +1,6 @@
-import sql from 'better-sqlite3';
+import Database from 'better-sqlite3';
 
-const db = new sql('messages.db');
+const db = new Database('messages.db');
 
 function initDb() {
   db.exec(`
