@@ -9,9 +9,9 @@ export default function NewMessagePage() {
 
     const message = formData.get('message');
     addMessage(message);
-    revalidatePath('/messages')
+    // revalidatePath('/messages')
     // revalidatePath('/', 'layout') // for all pages on site
-    // revalidateTag('msg')
+    revalidateTag('msg')
     redirect('/messages');
   }
 
