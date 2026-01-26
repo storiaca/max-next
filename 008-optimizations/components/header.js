@@ -11,6 +11,7 @@ export default function Header() {
           width={100} 
           height={100}
           // sizes="10vw"
+          priority
           alt="Mobile phone with posts feed on it" />
       </Link>
       <nav>
