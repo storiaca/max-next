@@ -33,3 +33,7 @@ npx create-next-app@latest .
 ## Caching in Next.js
 
 <https://nextjs.org/docs/app/guides/caching>
+
+## Metadata and OG images
+
+<https://nextjs.org/docs/app/getting-started/metadata-and-og-images>
