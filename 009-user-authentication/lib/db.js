@@ -1,6 +1,6 @@
-import sql from 'better-sqlite3';
+import Database from 'better-sqlite3';
 
-const db = sql('training.db');
+const db = Database('training.db');
 
 db.exec(`
   CREATE TABLE IF NOT EXISTS users (
