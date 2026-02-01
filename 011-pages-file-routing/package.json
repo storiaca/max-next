@@ -1,5 +1,5 @@
 {
-  "name": "009-user-authentication",
+  "name": "011-pages-file-routing",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "better-sqlite3": "^12.6.2",
     "next": "16.1.6",
-    "next-auth": "^4.24.13",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
